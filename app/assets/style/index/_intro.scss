@@ -1,0 +1,25 @@
+.item-lg{
+    @include lg{
+        background: #2D2D2D !important;
+        border: 1px solid #2D2D2D;
+        color: #C1C1C1;
+        span{
+            color: #C1C1C1;
+        }
+        &:hover{
+            background: #202020 !important;
+            border: 1px solid #62DB54;
+            span{
+                @include text-liner(var(--liner-color));
+            }
+        }
+        p{
+            font-size: 16px !important;
+        }
+    }
+    @include xl{
+        p{
+            font-size: 18px !important;
+        }
+    }
+}

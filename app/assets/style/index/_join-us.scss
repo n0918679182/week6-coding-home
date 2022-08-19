@@ -1,0 +1,14 @@
+.join-icon{
+    font-size: 100px;
+    opacity: .5;
+}
+.join{
+    @include lg{
+        h3{
+            font-size: 28px !important;
+        }
+        p{
+            font-size: 18px !important;
+        }
+    }
+}

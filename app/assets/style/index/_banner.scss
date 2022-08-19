@@ -1,0 +1,34 @@
+.banner{
+    background: url('../images/bg_home_mobile.jpg') center;
+    background-size: cover;
+    @include md{
+        background: url('../images/bg_home.jpg') center;
+        background-size: cover;
+    }
+}
+.square-t-l,.square-t-r,.square-b-l,.square-b-r{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    position: absolute;
+}
+.square-t-l{
+    top: 0;
+    left: 0;
+    transform: translateX(-50%) translateY(-50%);
+}
+.square-t-r{
+    top: 0;
+    right: 0;
+    transform: translateX(50%) translateY(-50%);
+}
+.square-b-l{
+    bottom: 0;
+    left: 0;
+    transform: translateX(-50%) translateY(50%);
+}
+.square-b-r{
+    bottom: 0;
+    right: 0;
+    transform: translateX(50%) translateY(50%);
+}
