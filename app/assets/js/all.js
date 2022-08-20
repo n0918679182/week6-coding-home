@@ -1,4 +1,4 @@
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".lessonsSwiper", {
   slidesPerView: "auto",
   spaceBetween: 30,
   grabCursor: true,
@@ -23,3 +23,14 @@ var swiper = new Swiper(".share-Swiper", {
     el: ".swiper-pagination",
   },
 });
+
+var swiper = new Swiper(".lesson-intro-Swiper", {
+  slidesPerView: "auto",
+  spaceBetween: 30,
+  grabCursor: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+

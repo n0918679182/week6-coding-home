@@ -1,0 +1,15 @@
+.teacher-img {
+    width: 100px;
+    height: 100px;
+}
+.lesson-intro-mw{
+    @include md{
+        max-width: 350px;
+    }
+    @include lg{
+        max-width: 500px;
+    }
+    @include xl{
+        max-width: 576px;
+    }
+}

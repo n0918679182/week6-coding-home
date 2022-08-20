@@ -64,3 +64,10 @@
     width: 50px;
     height: 3px;
 }
+.btn-liner{
+    background: linear-gradient(135deg, #09ACF5, #62DB54);
+    border: none;
+    &:hover{
+        background: linear-gradient(135deg, #0f95d3, #4ea744);
+    }
+}
