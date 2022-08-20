@@ -18387,6 +18387,17 @@ fieldset:disabled .btn {
   height: 3px;
 }
 
+.btn-liner {
+  background: -o-linear-gradient(315deg, #09ACF5, #62DB54);
+  background: linear-gradient(135deg, #09ACF5, #62DB54);
+  border: none;
+}
+
+.btn-liner:hover {
+  background: -o-linear-gradient(315deg, #0f95d3, #4ea744);
+  background: linear-gradient(135deg, #0f95d3, #4ea744);
+}
+
 .navlogo {
   height: 24px;
 }
@@ -18590,17 +18601,6 @@ fieldset:disabled .btn {
   .popular h4, .popular .h4 {
     font-size: 16px !important;
   }
-}
-
-.popular .btn-popular {
-  background: -o-linear-gradient(315deg, #09ACF5, #62DB54);
-  background: linear-gradient(135deg, #09ACF5, #62DB54);
-  border: none;
-}
-
-.popular .btn-popular:hover {
-  background: -o-linear-gradient(315deg, #0f95d3, #4ea744);
-  background: linear-gradient(135deg, #0f95d3, #4ea744);
 }
 
 .info img {
@@ -18855,6 +18855,29 @@ fieldset:disabled .btn {
   }
   .join p {
     font-size: 18px !important;
+  }
+}
+
+.teacher-img {
+  width: 100px;
+  height: 100px;
+}
+
+@media (min-width: 768px) {
+  .lesson-intro-mw {
+    max-width: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+  .lesson-intro-mw {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .lesson-intro-mw {
+    max-width: 576px;
   }
 }
 
