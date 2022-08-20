@@ -65,7 +65,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #1C1C1C;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -609,7 +609,7 @@ progress {
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  background-color: #1C1C1C;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -3406,12 +3406,12 @@ textarea.form-control-lg {
 }
 
 .form-range:focus::-webkit-slider-thumb {
-  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(98, 219, 84, 0.25);
-          box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(98, 219, 84, 0.25);
+  -webkit-box-shadow: 0 0 0 1px #1C1C1C, 0 0 0 0.25rem rgba(98, 219, 84, 0.25);
+          box-shadow: 0 0 0 1px #1C1C1C, 0 0 0 0.25rem rgba(98, 219, 84, 0.25);
 }
 
 .form-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(98, 219, 84, 0.25);
+  box-shadow: 0 0 0 1px #1C1C1C, 0 0 0 0.25rem rgba(98, 219, 84, 0.25);
 }
 
 .form-range::-moz-focus-outer {
@@ -6186,8 +6186,8 @@ fieldset:disabled .btn {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff;
+  background-color: #1C1C1C;
+  border-color: #dee2e6 #dee2e6 #1C1C1C;
 }
 
 .nav-tabs .dropdown-menu {
@@ -6773,6 +6773,11 @@ fieldset:disabled .btn {
   border-bottom: 0;
 }
 
+.card-header-tabs .nav-link.active {
+  background-color: #fff;
+  border-bottom-color: #fff;
+}
+
 .card-header-pills {
   margin-right: -0.5rem;
   margin-left: -0.5rem;
@@ -6869,7 +6874,7 @@ fieldset:disabled .btn {
   font-size: 1rem;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #1C1C1C;
   border: 0;
   border-radius: 0;
   overflow-anchor: none;
@@ -6944,7 +6949,7 @@ fieldset:disabled .btn {
 }
 
 .accordion-item {
-  background-color: #fff;
+  background-color: #1C1C1C;
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
@@ -11862,7 +11867,7 @@ fieldset:disabled .btn {
 }
 
 .bg-body {
-  background-color: #fff !important;
+  background-color: #1C1C1C !important;
 }
 
 .bg-white {
